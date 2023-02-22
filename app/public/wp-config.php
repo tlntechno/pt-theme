@@ -79,9 +79,9 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', true );
+	define( 'WP_DEBUG', false );
 }
-define('WP_DISABLE_FATAL_ERROR_HANDLER', true);
+define('WP_DISABLE_FATAL_ERROR_HANDLER', false);
 
 /* That's all, stop editing! Happy publishing. */
 
